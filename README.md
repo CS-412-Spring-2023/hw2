@@ -32,7 +32,7 @@ The score earned by your submission will be assigned to the team assuming that t
 
 # Deadline and discussion
 
-_Deadline_: 2359h on Fri, 28 Apr
+_Deadline_: 2359h on Tuesday, 18 Apr
 
 For discussion on the HW, please use the related Canvas discussion thread.
 
