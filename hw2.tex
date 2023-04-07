@@ -34,7 +34,7 @@
 
 
   \section*{Network Flows}
-  \question A group of five persons $p_i = \{p_1, p_2, ..., p_5\}$ plan to carpool together for each working day of the week. However due to several constraints (such as exams, appointments, etc.), not every person can drive on every day. The following table shows a driving possibility for each person on a given day of the week (i.e. Person $p_i$ can drive on given day $d_i$ if the corresponding element in the table is marked with an `X'):
+  \question A group of five persons $P = \{p_1, p_2, ..., p_5\}$ plan to carpool together for each working day $d_i$ of the week. However due to several constraints (such as exams, appointments, etc.), not every person can drive on every day. The following table shows a driving possibility for each person on a given day of the week (i.e. Person $p_i$ can drive on given day $d_i$ if the corresponding element in the table is marked with an `X'):
 
   \begin{table}[h]
     \centering
@@ -52,8 +52,8 @@
 
   A schedule is considered to be \textit{feasible} if exactly one person can be assigned one day of the week to drive.
   \begin{parts}
-    \part[5] Describe an algorithm using network flows which given the above table of possibilities as an input, computes whether a it is possible to generate a feasible schedule or not.
-    \part[5] What is the time complexity of your algorithm in terms of $n$? Apply your algorithm to the above table (Table \ref{key}) to determine if it generates a feasible schedule or not.
+    \part[5] Describe an algorithm using network flows which given the above table of possibilities as an input, computes whether a it is possible to generate a feasible schedule or not ? Apply your algorithm to the above table (Table \ref{key}) to determine if it generates a feasible schedule.
+    \part[5] What is the time complexity of your algorithm in terms of $n$, where the set of persons $P =  \{p_1, p_2, ..., p_n\}$ and the set of days $D = \{d_1, d_2, ..., d_n\}$ 
   \end{parts}
   \begin{solution}
 
